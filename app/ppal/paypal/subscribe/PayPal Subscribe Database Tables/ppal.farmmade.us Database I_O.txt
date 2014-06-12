@@ -1,0 +1,13 @@
+• Database Server:		paypal.farmmade.us - localhost
+	Server Version: 	50140
+	Server Host:		localhost
+	Server Database:	farmmade_ppal
+	Server Username:    farmmade_ppal 
+	Server Password:	3ka7wp99
+	
+	Database Server Tables:
+		 log_subscribe_errors
+		 log_subscribe
+		 vendor
+
+

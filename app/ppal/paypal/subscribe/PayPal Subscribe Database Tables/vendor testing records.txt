@@ -1,0 +1,117 @@
+• `vendor` Databse Table Data Fields
+	vendor_id
+	vendor_shop_name
+	vendor_first_name
+	vendor_last_name
+	vendor_email_address
+	vendor_paypal_address
+	vendor_address1
+	vendor_address2
+	vendor_city
+	vendor_state_province
+	vendor_zip_postal
+	vendor_country
+	vendor_PP_PayerID
+	vendor_PP_ProfileID
+	vendor_PP_ProfileStatus
+	vendor_PP_ProfileStartDate
+	vendor_PP_PayerCountry	
+
+
+• FarmMade Subscribe Sandbox Test Account:
+	sandbox.phypal.com
+	Email login: petes@myfarm.com / 3ka7wp10
+
+
+• Seller + Sandbox Accounts:
+	 1. Pete 1:		Lester Tester	lester2@tester.com / 3ka7wp10
+	 2. Pete 2		Sam Subscribe	sam@subscribe.com / 3ka7wp10
+	 3. Rex 1:		Rex1 Tester		rex1@patti.com	/ 3ka7wp10
+	 4. Rex 2:		Rex2 Tester		rex2@patti.com	/ 3ka7wp10
+	 5. Cindy 1:	Cindy1 Tester	cindy2@tester.com / 3ka7wp10
+	 6. Cindy 2: 	Cindy2 Tester	cindy3@tester.com / 3ka7wp10
+	 7. Patti 1:	Patti1 Tester	patti1@rex.com	/ 3ka7wp10
+	 8. Patti 2:	Patti2 Tester	patti2@rex.com	/ 3ka7wp10
+	 9. Jessy 1:	Jessy1 Tester	jessy1@myfarm.com 	/ 3ka7wp10
+	10: Jessy 2:	Jessy2 Tester	jessy2@myfarm.com / 3ka7wp10
+
+* Postal Addresses:
+	Lester Tester:
+		Tail Spin Farm / tailspinfarm
+		2010 S.W. Broadway
+		Portland
+		OR
+		97123
+	Sam Subscribe:
+		Sams Paintings / samspaintings
+		1234 Anywhere St.
+		Pudunksville
+		WA
+		98123
+		US
+	Rex1  & Rex2
+		Big Mountains / bigmountains
+		Stone Horse Designs / stonehoursedesigns
+		3300 NW 185th #129
+		Portland
+		OR
+		97124
+		US
+	Cindy1 & Cindy2
+		Eastonworks / eastonworks
+		Chessman Farm / chessmanfarm
+		3100 NE Jackson School Rd.
+		Hillsboro
+		OR
+		97124
+		US
+	Patty1 & Patti2
+		Bootsy / bootsy
+		Homesteader Gifts / homesteadergifts
+		14000 NW McNamee Road
+		Portland
+		OR
+		97231
+		US
+	Jessy1
+		Vineyard Creek / vinyardcreek
+		802 & 803, Ayappa Central Building
+		Ayappa Society
+		Madhapur
+		Hyderabad
+		500 034
+		IN
+	Jessy2
+		Red Rosa Farm / redrosafarm
+		90 Dellwood Road
+		Edison
+		NJ
+		08820
+		US
+
+
+
+INSERT INTO `vendor` 
+	(`vendor_id`, `magento_user_id`, `vendor_shop_name`, `vendor_first_name`, `vendor_last_name`, `vendor_email_address`, `vendor_paypal_address`,
+	`vendor_address1`, `vendor_address2`, `vendor_city`, `vendor_state_province`, `vendor_zip_postal`, `vendor_country`, `subdomain_name`)
+VALUES 
+	(1, 525, 'Lester\'s Farm', 'Lester', 'Tester', 'pete@seaquest.com', 'lester2@tester.com',
+	'2010 S.W. Broadway', '', 'Portland', 'OR', '97123', 'US', 'lestersfarm'),
+	(2, 526, 'Sams Paintings', 'Sam', 'Subscribe', 'pete@tester.com', 'sam@subscribe.com',
+	'1234 Anywhere St.', '', 'Pudunksville', 'WA', '98123', 'US', 'samspaintings'),
+	(3, 527, 'Big Mountains', 'Rex1', 'Tester', 'rex@fammade.com', 'rex1@patti.com',
+	'3300 NW 185th #129', '', 'Portland', 'OR', '97124', 'US', 'bigmountains'),
+	(4, 528, 'Stone Horse Designs', 'Rex2', 'Tester', 'rex@tester.com', 'rex2@patti.com',
+	'3300 NW 185th #129', '', 'Portland', 'OR', '97124', 'US', 'stonehoursedesigns'),
+	(5, 529, 'Eastonworks', 'Cindy1', 'Tester', 'cindy@eastonworks.com', 'cindy2@tester.com',
+	'3100 NE Jackson School Road', '', 'Hillsboro', 'OR', '97124', 'US', 'eastonworks'),
+	(6, 530, 'Chessman Farm', 'Cindy2', 'Tester', 'cindy@tester.com', 'cindy3@tester.com',
+	'3100 NE Jackson School Road', '', 'Hillsboro', 'OR', '97124', 'US', 'chessmanfarm'),
+	(7, 531, 'Bootsy', 'Patti1', 'Tester', 'patti@fammade.com', 'patti1@rex.com',
+	'14000 NW McNamee Road', '', 'Portland', 'OR', '97231', 'US', 'bootsy'),
+	(8, 532, 'Homesteader Gifts', 'Patti2', 'Tester', 'pattiy@tester.com', 'patti2@rex.com',
+	'14000 NW McNamee Road', '', 'Portland', 'OR', '97231', 'US', 'homesteadergifts'),
+	(9, 533, 'Vineyard Creek', 'Jessy1', 'Tester', 'jessy@quadrantsystems.com', 'jessy1@myfarm.com',
+	'802 & 803, Ayappa Central Building', 'Ayappa Society', 'Madhapur', '', '500 034', 'IN', 'vinyardcreek'),
+	(10, 534, 'Red Rosa Farm', 'Jessy2', 'Tester', 'jessy@tester.com', 'jessy2@myfarm.com',
+	'90 Dellwood Road', '', 'Edison', 'NJ', '08820', 'US', 'redrosafarm');

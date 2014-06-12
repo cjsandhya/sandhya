@@ -1,0 +1,3 @@
+[27-Dec-2013 11:47:26 America/New_York] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/farmmade/public_html/ppal/dbtest.php on line 40
+[27-Dec-2013 11:47:56 America/New_York] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/farmmade/public_html/ppal/dbtest.php on line 40
+[27-Dec-2013 12:14:51 America/New_York] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'farmmade_ppal'@'localhost' (using password: YES) in /home/farmmade/public_html/ppal/dbtest.php on line 16

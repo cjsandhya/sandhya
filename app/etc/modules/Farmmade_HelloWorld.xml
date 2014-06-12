@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Farmmade_Helloworld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Farmmade_Helloworld>
+    </modules>
+</config>
